@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <leo.me.la.labeledprogressbarlib.LabeledProgressBar
+        android:id="@+id/pb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:indeterminate="false"
+        app:labelBackgroundColor="#223856"
+        app:labelText="giangp"
+        app:labelValueType="custom"
+        app:maxValue="100"
+        app:minValue="0"
+        app:progressBeginColor="#123456"
+        app:progressCompleteColor="#987654"
+        app:progressHeight="5dp"
+        app:textColor="#ef7c00"
+        app:value="10" />
+
+    <leo.me.la.labeledprogressbarlib.LabeledProgressBar
+        android:id="@+id/pb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:indeterminate="false"
+        app:labelBackgroundColor="#f9f37e"
+        app:labelText="giangp"
+        app:labelValueType="percentage"
+        app:maxValue="100"
+        app:minValue="0"
+        app:progressBeginColor="#029bac"
+        app:progressCompleteColor="#8121ff"
+        app:progressHeight="15dp"
+        app:textColor="#b90000"
+        app:value="0" />
+
+    <leo.me.la.labeledprogressbarlib.LabeledProgressBar
+        android:id="@+id/pb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:indeterminate="false"
+        app:labelText="giangp"
+        app:labelValueType="value"
+        app:maxValue="12345"
+        app:minValue="600"
+        app:value="678" />
+
+    <leo.me.la.labeledprogressbarlib.LabeledProgressBar
+        android:id="@+id/pb2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:indeterminate="false"
+        app:labelText="loading..."
+        app:labelValueType="custom"
+        app:maxValue="12345"
+        app:minValue="600"
+        app:labelBackgroundColor="#d7d7d7"
+        app:progressBeginColor="#ba0000"
+        app:progressCompleteColor="#0dce00"
+        app:progressHeight="8dp"
+        app:textColor="#00177c"
+        app:value="678" />
+
+    <leo.me.la.labeledprogressbarlib.LabeledProgressBar
+        android:id="@+id/pb3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:indeterminate="true"
+        app:labelText="loading..."
+        app:labelValueType="custom"
+        app:maxValue="12345"
+        app:minValue="600"
+        app:labelBackgroundColor="#d7d7d7"
+        app:progressBeginColor="#f4c2ff"
+        app:progressCompleteColor="#ea39ed"
+        app:progressHeight="8dp"
+        app:textColor="#00177c"
+        app:value="678" />
+</LinearLayout>
