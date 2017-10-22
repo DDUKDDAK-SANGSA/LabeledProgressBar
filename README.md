@@ -54,7 +54,7 @@ dependencies {
   * **indeterminate** - if set to true, then the label is hidden
   * **labelBackgroundColor**
   * **labelText** - the text displayed on the label when labelValueType is set to custom 
-  * **labelValueType** - must be set to one of these valuess: percentage, value, custom
+  * **labelValueType** - must be set to one of these values: percentage, value, custom
   * **maxValue**
   * **minValue**
   * **progressBeginColor**
