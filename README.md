@@ -65,4 +65,4 @@ dependencies {
   The progress bar's color will gradually change from **progressBeginColor** to **progressCompleteColor** as it progresses from **minValue** to **maxValue**
   
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
