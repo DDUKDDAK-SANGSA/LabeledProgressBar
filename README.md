@@ -20,6 +20,17 @@ allprojects {
 }
 ```
 
+or
+
+```
+allprojects {
+    repositories {
+        ...
+        jcenter()
+    }
+}
+```
+
 In your app build.gradle
 
 ```
