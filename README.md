@@ -4,7 +4,7 @@
 An android progress bar which allows developers to show a label on top of the bar
 
 ## Demo
-![labeledprogressbar](https://lh3.googleusercontent.com/PIcboFfU8O3cWXZtDyzNIj0d1epxVZRHL3raSk2nGmvwFeTjwk-8X9gBy3lblfMTG_qTNnhA8eytbA=w1366-h677)
+![labeledprogressbar](https://media.giphy.com/media/xUOxfg5TuJ5GkIT2ms/giphy.gif)
 
 ## Integration
 
